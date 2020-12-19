@@ -1,4 +1,12 @@
 /*App style*/
+@font-face {
+  font-family: "Anton";
+  src:
+    local("Anton"),
+    url("./fonts/Anton-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Work Sans";

@@ -1,0 +1,30 @@
+.menu__user-pic{
+  padding-left: 23px;
+}
+
+@media(min-width:768px){
+  .menu__user{
+    margin-left: auto;
+    margin-right: 45px;
+    padding-top: 17px;
+  }
+
+  .menu__user img{
+    padding-left: 35px;
+  }
+
+}
+
+@media(min-width: 1366px){
+  .menu__user{
+    margin-right: 97px;
+    margin-bottom: 46px;
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .menu__user-pic:first-child{
+    padding-top: 35px;
+  }
+}

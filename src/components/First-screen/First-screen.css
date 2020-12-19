@@ -1,0 +1,159 @@
+.main__img{
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.model__denim {
+  position: relative;
+  z-index: 10;
+}
+
+.main__img:before{
+  content: "";
+  display: block;
+  position: absolute;
+  /* top: 36px;
+  left:39px; */
+  top: 245px;
+  left:113px;
+  
+  width: 109px;
+  height: 80px;
+  background: url('./mobile_diagonal_1.png') ;
+}
+
+.main__img:after{
+  content: "";
+  display: block;
+  position: absolute;
+  /* top: 245px;
+  left: 172px; */
+  top: 36px;
+  left: -20px;
+  
+  width: 109px;
+  height: 80px;
+  background: url('./mobile_diagonal_2.png') ;
+}
+
+.slogan{
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
+  color: #727A82;
+}
+
+.slogan__img{
+  margin: 0 auto;
+  padding-top: 13px;
+  display: block;
+}
+
+.btn{
+  margin-top: 40px;
+  margin-left: 58px;
+  width: 204px;
+  height: 64px;
+  color: white;
+}
+
+.btn--main{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media(min-width: 768px){
+  .main__img{
+    margin: 0;
+  }
+
+  .model__denim{
+    /* margin-right: 75px; */
+    margin-left: 429px;
+    padding-top: 24px;
+  }
+
+  .slogan{
+    position: absolute;
+    top: 224px;
+    left: 133px;
+  }
+
+  .slogan__img{
+    padding: 0;
+    width: 226px;
+    position: absolute;
+    top: 261px;
+    left: 133px;
+  }
+
+  .main__img:before{
+    top: -5px;
+    left: 400px;
+    width: 141px;
+    height: 104px;
+    background: url('./tab_diagonal_1.png') ;
+  }
+  
+  .main__img:after{
+    top: 269px;
+    left: 582px;
+    width: 141px;
+    height: 104px;
+    background: url('./tab_diagonal_2.png') ;
+  }
+
+  .btn--main{
+    position: absolute;
+    top: 365px;
+    left: 75px;
+    width: 218px;
+  }
+}
+
+@media(min-width: 1366px){
+
+  .main__img{
+    height: 328px;
+  }
+
+  .model__denim{
+    width: 430px;
+    top: -140px;
+    left: 240px;
+  }
+
+  .main__img:before{
+    top: -167px;
+    left: 617px;
+    width: 232px;
+    height: 176px;
+    background: url('./desktop_diagonal_1.png') ;
+  }
+  
+  .main__img:after{
+    top: 274px;
+    left: 915px;
+    width: 232px;
+    height: 176px;
+    background: url('./desktop_diagonal_2.png') ;
+  }
+
+  .slogan{
+    top: 256px;
+    left: 267px;
+  }
+
+  .slogan__img{
+    width: 305px;
+    top: 290px;
+    left: 263px;
+  }
+
+  .btn--main{
+    top: 411px;
+    left: 210px;
+  }
+}
